@@ -1,7 +1,10 @@
 body{
-    margin: 0 150px;
+    margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+main{
+    margin: 0 150px;
 }
 .header{
     display: flex;
@@ -93,12 +96,13 @@ h2{
 }
 
 
-/* !-- DEVELOP SECTION --> */
+/* !-- Blog(DEVELOP and COMMUNITY) SECTION --> */
 .develop-section{
     margin-top: 85px;
 }
 .develop{
     display: flex;
+    align-items: center;
 }
 .develop-img img{
     width: 400px;
@@ -106,4 +110,28 @@ h2{
 }
 h3{
     font-size: 36px;
+}
+#project-img{
+    text-align: right;
+    margin-left: 82px;
+}
+
+
+/* !Footer SECTION --> */
+footer{
+    background-color: #000;
+    text-align: center;
+    margin-top: 150px;
+}
+.footer{
+    padding: 40px 0;
+}
+footer h3{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+}
+footer p{
+    color: #D9DBE1;
 }
