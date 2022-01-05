@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #ebe8e8;
 }
 main{
     margin: 0 150px;
@@ -115,6 +116,35 @@ h3{
     text-align: right;
     margin-left: 82px;
 }
+
+
+/* !Subscription SECTION --> */
+.subscription-section{
+    margin-top: 150px;
+}
+.subscription{
+    text-align: center;
+}
+.subscription input{
+    outline: none;
+    height: 45px;
+    width: 500px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    border: none;
+    border-radius: 5px;
+}
+textarea{
+    width: 500px;
+    outline: none;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
 
 
 /* !Footer SECTION --> */
